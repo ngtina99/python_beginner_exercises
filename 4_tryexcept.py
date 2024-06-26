@@ -1,6 +1,6 @@
 sh = input('Enter Hours: ')
 sr = input('Enter Rate: ')
-try:
+try: # if it is not that it jumps to except
 	fh = float(sh)
 	fr = float(sr)
 except:
